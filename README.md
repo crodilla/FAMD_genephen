@@ -59,4 +59,7 @@ The output of this program is a plot showing distribution of individuals algo th
 
 ## Execution
 
-Rscript FAMD_genephen.R file_to_analyse.csv plot.png
+Run the script using the input (table in csv format) and the output (desired name followed by .png extension) as positional arguments of the script.
+
+Rscript FAMD_genephen.R input output
+

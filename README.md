@@ -4,7 +4,7 @@
 
 FAMD (Factor Analysis of Mixed Data) has been used to delve into a dataset of patients with genetic ophtalmological diseases for whom several clinical variables had been collected. The FAMD algorithm has allowed us to explore how the different variables are related, identifying underlying patterns in the data. The application of this algorithm has resulted in the identification of different clusters of patients allowing the classification of undiagnosed patients into a specific phenotype.
 
-## ALGORITHM 
+## Algorithm
 
 FAMD  is a multivariate statistical algorithm used for analyzing datasets with both continuous and categorical variables. FAMD is an extension of Factor Analysis (FA), which is a technique used to explain the correlation between observed variables in terms of a smaller number of unobserved latent variables, or factors.
 

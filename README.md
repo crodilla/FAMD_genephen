@@ -2,13 +2,11 @@
 
 ## INTRODUCTION
 
-FAMD (Factor Analysis of Mixed Data) has been used to delve into a dataset of patients with genetic ophtalmological diseases for whom several clinical variables had been collected. The FAMD algorithm has allowed us to explore how the different variables are related, identifying underlying patterns in the data. The application of this algorithm has resulted in the identification of different clusters of patients allowing the classification of undiagnosed patients. 
+FAMD (Factor Analysis of Mixed Data) has been used to delve into a dataset of patients with genetic ophtalmological diseases for whom several clinical variables had been collected. The FAMD algorithm has allowed us to explore how the different variables are related, identifying underlying patterns in the data. The application of this algorithm has resulted in the identification of different clusters of patients allowing the classification of undiagnosed patients into a specific phenotype.
 
 ## ALGORITHM 
 
-FAMD stands for Factor Analysis of Mixed Data, and it is a multivariate statistical algorithm used for analyzing datasets with both continuous and categorical variables. FAMD is an extension of Factor Analysis (FA), which is a technique used to explain the correlation between observed variables in terms of a smaller number of unobserved latent variables, or factors.
-
-The FAMD algorithm can handle mixed data types by using a combination of Principal Component Analysis (PCA) and Multiple Correspondence Analysis (MCA) techniques. PCA is used to reduce the dimensionality of continuous variables, while MCA is used to analyze the association between categorical variables.
+FAMD  is a multivariate statistical algorithm used for analyzing datasets with both continuous and categorical variables. FAMD is an extension of Factor Analysis (FA), which is a technique used to explain the correlation between observed variables in terms of a smaller number of unobserved latent variables, or factors.
 
 The FAMD algorithm produces output similar to that of a traditional PCA or FA analysis, including factor loadings and eigenvalues. However, FAMD provides additional information on the relationship between categorical variables and the extracted factors, which can help to identify underlying patterns in the data and to better understand the relationships between variables.
 
@@ -40,14 +38,9 @@ Required R libraries:
 
 # Usage
 
-## Execution
-
-Rscript FAMD_genephen.R file_to_analyse.tsv plot.png
-
 ## Input 
 
-FAMD_genephen takes a table where the columns are genomic and phenotypic variables of mixed types and the rows represent the patients. 
-
+FAMD_genephen takes a table where the columns are genomic and clinical variables of mixed types and the rows represent the patients. 
 
 
 | Comb_variants | Allele1 | Allele2 | Onset   | BVA_Age_ratio | Refraction    | VFL | Night_blindness | Nystagmus | Photophobia | Color_alterations | ERG            | Central | Periphery | Diagnosis |
@@ -60,5 +53,10 @@ FAMD_genephen takes a table where the columns are genomic and phenotypic variabl
 
 
 
+## Output
 
+The output of this program is a plot showing distribution of individuals algo the components.
 
+## Execution
+
+Rscript FAMD_genephen.R file_to_analyse.csv plot.png

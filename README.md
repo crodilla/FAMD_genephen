@@ -57,7 +57,7 @@ FAMD_genephen takes a table where the columns are genomic and clinical variables
 
 The output of this program is a plot showing distribution of individuals algo the components.
 
-![FAMD_individuals](FAMD_img.tiff)
+![FAMD_individuals](./FAMD_img.jpg)
 
 ## Execution
 

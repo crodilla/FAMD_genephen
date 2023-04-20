@@ -57,6 +57,8 @@ FAMD_genephen takes a table where the columns are genomic and clinical variables
 
 The output of this program is a plot showing distribution of individuals algo the components.
 
+
+
 ## Execution
 
 Run the script using the input (table in csv format) and the output (desired name followed by .png extension) as positional arguments of the script.
